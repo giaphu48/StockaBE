@@ -1,0 +1,25 @@
+# Môi trường ảo (Virtual Environment)
+.venv/
+venv/
+env/
+
+# Bytecode Python & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database nội bộ khi test (nếu dùng sqlite)
+*.sqlite3
+db.sqlite3
+
+# Thư mục chứa file người dùng tải lên (nếu có cấu hình MEDIA_ROOT)
+media/
+
+# Các file biến môi trường chứa secret key, mật khẩu DB
+.env
+.env.local
+
+# File cấu hình IDE / Editor
+.vscode/
+.idea/
+*.swp
